@@ -40,36 +40,6 @@ $("#work6").hover(function(){
 })
 
 
-
-
-$("#crl2").click(function(){
-    $("#crl1").removeClass('dot-active');
-    $("#crl1").addClass('dot');
-    $("#crl2").removeClass('dot');
-    $("#crl2").addClass('dot-active');
-    $("#crl3").removeClass('dot-active');
-    $("#crl3").addClass('dot');
-});
-
-$("#crl1").click(function(){
-    $("#crl1").removeClass('dot');
-    $("#crl1").addClass('dot-active');
-    $("#crl2").removeClass('dot-active');
-    $("#crl2").addClass('dot');
-    $("#crl3").removeClass('dot-active');
-    $("#crl3").addClass('dot');
-});
-
-$("#crl3").click(function(){
-    $("#crl1").removeClass('dot-active');
-    $("#crl1").addClass('dot');
-    $("#crl2").removeClass('dot-active');
-    $("#crl2").addClass('dot');
-    $("#crl3").removeClass('dot');
-    $("#crl3").addClass('dot-active');
-});
-
-
 $(document).ready(function(){
         $("body").on("click","a", function (event) {
             //отменяем стандартную обработку нажатия по ссылке
