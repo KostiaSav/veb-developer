@@ -57,6 +57,9 @@ h4 {
   background-color: #00897b;
   border: 0;
 }
+textarea {
+  resize: none;
+}
 body {
   font-family: 'Open Sans';
   overflow-x: hidden;
